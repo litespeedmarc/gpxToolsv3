@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fix Fit</title>
+</head>
+<body>
+If you are like me & use a cheap Bryton device, you may find from time to time that Strava is unable to understand your uploads.
+This takes a FIT file (located on the device), and converts it to a format that Strava understands
+<form action="/api/utils/fitfix" method="post" enctype="multipart/form-data">
+  <p><input type="file" name="file">
+  <p><button type="submit">Submit</button>
+</form>
+
+</body>
+</html>
